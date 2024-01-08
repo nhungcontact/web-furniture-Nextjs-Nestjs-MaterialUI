@@ -1,0 +1,31 @@
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 57, reused 56, downloaded 0, added 0
+Progress: resolved 59, reused 58, downloaded 0, added 0
+ WARN  deprecated querystring@0.2.1: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+Progress: resolved 161, reused 151, downloaded 1, added 0
+ WARN  deprecated acorn-dynamic-import@4.0.0: This is probably built in to whatever tool you're using. If you still need it... idk
+Progress: resolved 325, reused 309, downloaded 2, added 0
+Progress: resolved 587, reused 557, downloaded 2, added 0
+Progress: resolved 778, reused 719, downloaded 2, added 0
+Progress: resolved 1027, reused 934, downloaded 2, added 0
+ WARN  deprecated @jridgewell/source-map@0.3.4: the version has a bug with typescript type resolution
+Progress: resolved 1303, reused 1260, downloaded 2, added 0
+Progress: resolved 1595, reused 1563, downloaded 2, added 0
+Packages: +66
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 1595, reused 1563, downloaded 2, added 1
+Progress: resolved 1595, reused 1563, downloaded 2, added 2, done
+
+devDependencies:
++ @storybook/addon-mdx-gfm 7.0.26
+
+ WARN  Issues with peer dependencies found
+.
+└─┬ i18next-scanner 4.2.0
+  └─┬ acorn-dynamic-import 4.0.0
+    └── ✕ unmet peer acorn@^6.0.0: found 8.9.0
+
+ EPERM  EPERM: operation not permitted, rename 'F:\Nam 4\THUC TAP\FITIVATION\fitivation-web\package.json.73590407' -> 'F:\Nam 4\THUC TAP\FITIVATION\fitivation-web\package.json'
+
+
+

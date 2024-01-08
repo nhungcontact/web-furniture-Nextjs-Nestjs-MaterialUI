@@ -1,0 +1,88 @@
+{
+  "HomePage": {
+    "title": "Admin",
+    "description": "Built with NextJS v13 using App router"
+  },
+  "MainMenu": {
+    "Products": "Products",
+    "People": "People",
+    "Contact": "Contact"
+  },
+  "UserMenu": {
+    "Profile": "Profile",
+    "Settings": "Settings"
+  },
+  "FooterMenu": {
+    "Home": "Home",
+    "About": "About",
+    "Policy": "Policy"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, vi {Vietnamese} en {English} ko {Korean} other {Unknown}}"
+  },
+  "AppFeatures": {
+    "title": "App Features",
+    "subtitle": "Impressive",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+  },
+  "HeroBanner": {
+    "title": "Hello World!",
+    "description": "Let's build an amazing application"
+  },
+  "UserList": {
+    "title": "Users",
+    "detail_btn": "Detail",
+    "error": "error",
+    "noData": "noData",
+    "searchPlaceholder": "searchPlaceholder",
+    "Show": "Show"
+  },
+  "MainFooter": {
+    "title": "Example Next App",
+    "subtitle": "Implemented with NextJS v13"
+  },
+  "NotFound": {
+    "title": "Not Found",
+    "description": "Could not find requested resource",
+    "buttonText": "Go Back"
+  },
+  "UserListItem": {
+    "option": {
+      "detail": "detail",
+      "delete": "delete",
+      "edit": "edit"
+    }
+  },
+  "UserHeader": {
+    "title": "All People",
+    "create": "create"
+  },
+  "ErrorContent": {
+    "title": "Error",
+    "tryAgain": "Try Again"
+  },
+  "UserEditDialog": {
+    "title": "Edit User",
+    "displayName": "Display Name",
+    "email": "Email",
+    "cancel": "cancel",
+    "save": "save"
+  },
+  "UserRemoveDialog": {
+    "title": "Remove user",
+    "content": "Are you sure?",
+    "cancel": "cancel",
+    "remove": "remove"
+  },
+  "UserCreateDialog": {
+    "title": "Create User",
+    "displayName": "Display Name",
+    "username": "Username",
+    "email": "Email",
+    "tel": "Tel",
+    "cancel": "cancel",
+    "save": "save",
+    "role": "Role"
+  }
+}

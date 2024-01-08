@@ -1,0 +1,48 @@
+🔎 checking possible migrations..
+
+🔎 found a 'github-flavored-markdown-mdx' migration:
+╭ Automigration detected ──────────────────────────────────────────────╮
+│                                                                      │
+│   In MDX1 you had the option of using GitHub flavored markdown.      │
+│                                                                      │
+│   Storybook 7.0 uses MDX2 for compiling MDX, and thus no longer      │
+│   supports GFM out of the box.                                       │
+│   Because of this you need to explicitly add the GFM plugin in the   │
+│   addon-docs options:                                                │
+│   https://storybook.js.org/docs/react/writing-docs/mdx#lack-of-git   │
+│   hub-flavored-markdown-gfm                                          │
+│                                                                      │
+│   We recommend you follow the guide on the link above, however we    │
+│   can add a temporary storybook addon that helps make this           │
+│   migration easier.                                                  │
+│   We'll install the addon and add it to your storybook config.       │
+│                                                                      │
+╰──────────────────────────────────────────────────────────────────────╯
+? Do you want to run the 'github-flavored-markdown-mdx' migration on your project? » (Y/n)√ Do you want to run the 'github-flavored-markdown-mdx' migration on your project? ... yes
+
+An error occurred while installing dependencies:
+PNPM error
+
+Please check the logfile generated at ./storybook.log for troubleshooting and try again.
+❌ error when running github-flavored-markdown-mdx migration
+HandledError: PNPM error
+
+Please check the logfile generated at ./storybook.log for troubleshooting and try again.
+    at PNPMProxy.addDependencies (F:\.pnpm-store\v3\tmp\dlx-8096\node_modules\.pnpm\@storybook+cli@7.0.26\node_modules\@storybook\cli\dist\generate.js:50:75)
+    at async Object.run (F:\.pnpm-store\v3\tmp\dlx-8096\node_modules\.pnpm\@storybook+cli@7.0.26\node_modules\@storybook\cli\dist\generate.js:156:231)
+    ... 4 lines matching cause stack trace ...
+    at async upgrade (F:\.pnpm-store\v3\tmp\dlx-8096\node_modules\.pnpm\@storybook+cli@7.0.26\node_modules\@storybook\cli\dist\generate.js:400:3864) {
+  handled: true,
+  cause: Error: PNPM error
+  
+  Please check the logfile generated at ./storybook.log for troubleshooting and try again.
+      at PNPMProxy.runAddDeps (F:\.pnpm-store\v3\tmp\dlx-8096\node_modules\.pnpm\@storybook+cli@7.0.26\node_modules\@storybook\cli\dist\generate.js:54:3737)
+      at async PNPMProxy.addDependencies (F:\.pnpm-store\v3\tmp\dlx-8096\node_modules\.pnpm\@storybook+cli@7.0.26\node_modules\@storybook\cli\dist\generate.js:49:853)
+      at async Object.run (F:\.pnpm-store\v3\tmp\dlx-8096\node_modules\.pnpm\@storybook+cli@7.0.26\node_modules\@storybook\cli\dist\generate.js:156:231)
+      at async runFixes (F:\.pnpm-store\v3\tmp\dlx-8096\node_modules\.pnpm\@storybook+cli@7.0.26\node_modules\@storybook\cli\dist\generate.js:373:1144)
+      at async automigrate (F:\.pnpm-store\v3\tmp\dlx-8096\node_modules\.pnpm\@storybook+cli@7.0.26\node_modules\@storybook\cli\dist\generate.js:368:676)
+      at async doUpgrade (F:\.pnpm-store\v3\tmp\dlx-8096\node_modules\.pnpm\@storybook+cli@7.0.26\node_modules\@storybook\cli\dist\generate.js:400:3418)
+      at async withTelemetry (F:\.pnpm-store\v3\tmp\dlx-8096\node_modules\.pnpm\@storybook+core-server@7.0.26\node_modules\@storybook\core-server\dist\index.js:46:3620)
+      at async upgrade (F:\.pnpm-store\v3\tmp\dlx-8096\node_modules\.pnpm\@storybook+cli@7.0.26\node_modules\@storybook\cli\dist\generate.js:400:3864)
+}
+

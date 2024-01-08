@@ -1,0 +1,86 @@
+{
+  "translate_string": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "trString",
+    "description": "Translate a string (already have quotes)",
+    "body": ["t($TM_SELECTED_TEXT${1:})"]
+  },
+  "translate_text": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "trText",
+    "description": "Translate a text (not have quotes yet)",
+    "body": ["t('$TM_SELECTED_TEXT${1:}')"]
+  },
+  "translated_text_node": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "trTextNode",
+    "description": "Translate text inside ReactNode",
+    "body": ["{t('$TM_SELECTED_TEXT${1:}')}"]
+  },
+  "translated_property_value": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "trTextProperty",
+    "description": "Translate text inside component property",
+    "body": ["{t($TM_SELECTED_TEXT${1:})}"]
+  },
+  "use_translation": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "trHook",
+    "description": "Use translation hook",
+    "body": ["const t = useTranslations$1('${2:${TM_FILENAME_BASE}}');"]
+  },
+  "use_query_params": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "useQueryParams",
+    "description": "useQueryParams hook",
+    "body": [
+      "const [${1:value}, set${1/(.*)/${1:/capitalize}/}] = useQueryParams$0<$2>($3);"
+    ]
+  },
+  "translated_component": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "trComponent",
+    "description": "Create a React functional component with translation",
+    "body": [
+      "'use client';",
+      "",
+      "import React from 'react';",
+      "import { useTranslations } from 'next-intl';",
+      "",
+      "export type ${1:${TM_FILENAME_BASE}}Props = ${2:object}",
+      "",
+      "function ${1:${TM_FILENAME_BASE}}({}: ${1:${TM_FILENAME_BASE}}Props) {",
+      "  const t = useTranslations('${1:${TM_FILENAME_BASE}}');",
+      "",
+      "  return <>$0</>;",
+      "}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}};"
+    ]
+  },
+  "storybook_component": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "sbc",
+    "description": "Create a story of component",
+    "body": [
+      "import type { Meta, StoryObj } from '@storybook/react';",
+      "import ${1:${TM_FILENAME_BASE/(.+)\\.stories$/$1/}} from './${1:${TM_FILENAME_BASE/(.+)\\.stories$/$1/}}';",
+      "",
+      "const meta: Meta<typeof ${1:${TM_FILENAME_BASE/(.+)\\.stories$/$1/}}> = {",
+      "  title: '${2:${TM_DIRECTORY/.+\\/(.+)$/${1:/capitalize}/}}/${1:${TM_FILENAME_BASE/(.+)\\.stories$/$1/}}',",
+      "  component: ${1:${TM_FILENAME_BASE/(.+)\\.stories$/$1/}},",
+      "  tags: ['autodocs'],",
+      "};",
+      "",
+      "export default meta;",
+      "",
+      "type Story = StoryObj<typeof ${1:${TM_FILENAME_BASE/(.+)\\.stories$/$1/}}>;",
+      "",
+      "export const Playground: Story = {",
+      "  args: {",
+      "    $0",
+      "  },",
+      "};"
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "HomePage": {
+    "title": "Furnit",
+    "description": "Built with NextJS v13 using App router"
+  },
+  "MainMenu": {
+    "Products": "Products",
+    "People": "People",
+    "Contact": "Contact"
+  },
+  "UserMenu": {
+    "Profile": "Profile",
+    "Settings": "Settings"
+  },
+  "FooterMenu": {
+    "Home": "Home",
+    "About": "About",
+    "Policy": "Policy"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, vi {Vietnamese} en {English} ko {Korean} other {Unknown}}"
+  },
+  "AppFeatures": {
+    "title": "App Features",
+    "subtitle": "Impressive",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    "title_feature": "title_feature",
+    "subtitle_feature": "subtitle_feature",
+    "description_feature": "description_feature"
+  },
+  "HeroBanner": {
+    "title": "Hello World!",
+    "description": "Let's build an amazing application"
+  },
+  "UserList": {
+    "title": "Users",
+    "detail_btn": "Detail",
+    "error": "error",
+    "noData": "noData",
+    "searchPlaceholder": "searchPlaceholder",
+    "Show": "Show"
+  },
+  "MainFooter": {
+    "title": "Example Next App",
+    "subtitle": "Implemented with NextJS v13"
+  },
+  "NotFound": {
+    "title": "Not Found",
+    "description": "Could not find requested resource",
+    "buttonText": "Go Back"
+  },
+  "UserListItem": {
+    "option": {
+      "detail": "detail",
+      "delete": "delete",
+      "edit": "edit"
+    }
+  },
+  "UserHeader": {
+    "title": "All People",
+    "create": "create"
+  },
+  "ErrorContent": {
+    "title": "Error",
+    "tryAgain": "Try Again"
+  },
+  "UserEditDialog": {
+    "title": "Edit User",
+    "displayName": "Display Name",
+    "email": "Email",
+    "cancel": "cancel",
+    "save": "save"
+  },
+  "UserRemoveDialog": {
+    "title": "Remove user",
+    "content": "Are you sure?",
+    "cancel": "cancel",
+    "remove": "remove"
+  },
+  "UserCreateDialog": {
+    "title": "Create User",
+    "displayName": "Display Name",
+    "username": "Username",
+    "email": "Email",
+    "tel": "Tel",
+    "cancel": "cancel",
+    "save": "save",
+    "role": "Role"
+  },
+
+  "MainPage": {
+    "Home":"Home",
+    "Furnitures":"Furnitures",
+    "Sale":"Sale",
+    "Blog":"Blog",
+    "Contact":"Contact",
+    "Search":"Search...",
+    "Account":"Account",
+    "Logout":"Logout",
+    "Sign In":"Sign In",
+    "Sign Up":"Sign Up",
+    "Favorites":"Favorites",
+    "Cart":"Cart",
+    "Show now":"Shop now",
+    "Our product":"Our product",
+    "New arrivals":"New arrivals",
+    "Sales":"Sales",
+    "Best Sellers":"Best Sellers",
+    "About":"About",
+    "Room":"Room",
+    "Contact with us":"Contact with us",
+    "Festival saving await":"Festival saving await!",
+    "Top selling products":"Top selling products!",
+    "Sale now":"Sale now",
+    "Copy code":"Copy code",
+    "Minimum order of":"Minimum order of",
+    "Expiry Date":"Expiry Date",
+    "Apply Date":"Apply Date",
+    "Our address":"Our address",
+    "Our Email":"Our Email",
+    "Our phone number":"Our phone number",
+    "Working hours":"Working hours",
+    "Send your inquiries to us":"Send your inquiries to us",
+    "Enter a name":"Enter a name",
+    "Enter a phone number":"Enter a phone number",
+     "Enter a email":"Enter a email",
+    "Enter a content":"Enter a content",
+    "Send to us":"Send to us",
+    "Monday to Friday from 8:00 AM to 6:00 PM":"Monday to Friday from 8:00 AM to 6:00 PM",
+    "Saturday and Sunday from 8:00 AM to 5:00 PM":"Saturday and Sunday from 8:00 AM to 5:00 PM",
+    "Copied Success":"Copied Success",
+    "Copied":"Copied",
+    "Copyright":"Copyright",
+    "Dormitory A, Can Tho University, Xuan Khanh, Ninh Kieu, Can Tho":"Dormitory A, Can Tho University, Xuan Khanh, Ninh Kieu, Can Tho",
+    "Sort":"Sort",
+    "search results for":"search results for",
+    "Name from A to Z":"Name from A to Z",
+    "Name from Z to A":"Name from Z to A",
+    "Price (low to hight)":"Price (low to hight)",
+    "Price (hight to low)":"Price (hight to low)",
+    "Language settings":"Language settings",
+    "Incorrect Order Information":"Incorrect Order Information",
+    "Incorrect Delivery Address":"Incorrect Delivery Address",
+    "Change of decision":"Change of decision",
+    "Dissatisfaction with the product/service":"Dissatisfaction with the product/service",
+    "Financial problems":"Financial problems",
+    "Other issues":"Other issues"
+  },
+  "SignInUp":{
+    "Welcome back":"Welcome back!",
+    "Do you have an account yet":"Do you have an account yet ?",
+    "Sign In":"Sign In",
+    "Sign Up":"Sign Up",
+    "Sign in to your Furnit account":"Sign in to your Furnit account",
+    "Email Address":"Email Address",
+    "Password":"Password",
+    "Remember me":"Remember me",
+    "Forget my password":"Forget my password?",
+    "Welcome":"Welcome!",
+    "First things first":"First things first...",
+    "Create a profile to personalize how you will appear to collaboraors":"Create a profile to personalize how you will appear to collaboraors",
+    "Username":"Username",
+    "First name":"First name",
+    "Last name":"Last name",
+    "Phone number":"Phone number",
+    "Email address":"Email address",
+    "What is your gender":"what is your gender?",
+    "Repeat password":"Repeat password",
+    "Already a member":"Already a member?",
+    "Sign up successfully":"Sign up successfully!",
+    "Sign in successfully":"Sign in successfully!",
+    "Female":"Female",
+    "Male":"Male",
+    "Other":"Other",
+    "8+ character":"8+ character"
+  },
+  "OrderHistory":{
+    "Cancellation Request Date":"Cancellation Request Date",
+    "Cancellation request has been submitted, awaiting confirmation":"Cancellation request has been submitted, awaiting confirmation"
+  },
+  "ProductDetail":{
+    "Reviews":"Đánh giá",
+    "Our Community Guidelines Help Customers Write Honest Reviews":"Our Community Guidelines Help Customers Write Honest Reviews.",
+    "No Review":"No Review",
+    "Latest":"Latest",
+    "Oldest":"Oldest",
+    "Highest Rated":"Highest Rated",
+    "Lowest Rated":"Lowest Rated"
+  }
+}

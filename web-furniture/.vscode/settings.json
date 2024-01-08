@@ -1,0 +1,24 @@
+{
+  "cSpell.words": [
+    "appbar",
+    "autodocs",
+    "commitlint",
+    "corepack",
+    "dind",
+    "docgen",
+    "dockerenv",
+    "gitbot",
+    "languagedetector",
+    "Lngs",
+    "NEXTAUTH",
+    "nextjs",
+    "Picsum",
+    "tscan",
+    "unoptimized"
+  ],
+  "editor.indentSize": 2,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.detectIndentation": false,
+  "prettier.printWidth": 90
+}

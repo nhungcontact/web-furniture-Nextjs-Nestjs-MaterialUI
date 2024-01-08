@@ -1,0 +1,189 @@
+{
+  "HomePage": {
+    "title": "Nội thất Furnit",
+    "description": "Sự miêu tả"
+  },
+  "MainMenu": {
+    "Products": "Các sản phẩm",
+    "People": "Mọi người",
+    "Contact": "Liên hệ"
+  },
+  "UserMenu": {
+    "Profile": "Hồ sơ",
+    "Settings": "Cài đặt"
+  },
+  "FooterMenu": {
+    "Home": "Trang chủ",
+    "About": "Về",
+    "Policy": "Chính sách"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, vi {Vietnamese} en {English} ko {Korean} other {Unknown}}"
+  },
+  "AppFeatures": {
+    "title": "tiêu đề",
+    "subtitle": "phụ đề",
+    "description": "Sự miêu tả",
+    "title_feature": "title_feature",
+    "subtitle_feature": "subtitle_feature",
+    "description_feature": "description_feature"
+  },
+  "HeroBanner": {
+    "title": "tiêu đề",
+    "description": "Sự miêu tả"
+  },
+  "UserList": {
+    "title": "Người dùng",
+    "detail_btn": "Chi tiết",
+    "error": "error",
+    "noData": "noData",
+    "searchPlaceholder": "searchPlaceholder",
+    "Show": "Show"
+  },
+  "MainFooter": {
+    "title": "tiêu đề",
+    "subtitle": "phụ đề"
+  },
+  "NotFound": {
+    "title": "Not Found",
+    "description": "Could not find requested resource",
+    "buttonText": "Go Back"
+  },
+  "UserListItem": {
+    "option": {
+      "detail": "detail",
+      "delete": "delete",
+      "edit": "edit"
+    }
+  },
+  "UserHeader": {
+    "title": "title",
+    "create": "create"
+  },
+  "ErrorContent": {
+    "title": "title",
+    "tryAgain": "tryAgain"
+  },
+  "UserEditDialog": {
+    "title": "Edit User",
+    "displayName": "Display Name",
+    "email": "Email",
+    "cancel": "cancel",
+    "save": "save"
+  },
+  "UserRemoveDialog": {
+    "title": "Remove user",
+    "content": "Are you sure?",
+    "cancel": "cancel",
+    "remove": "remove"
+  },
+  "UserCreateDialog": {
+    "title": "Create User",
+    "displayName": "Display Name",
+    "username": "Username",
+    "email": "Email",
+    "tel": "Tel",
+    "cancel": "cancel",
+    "save": "save",
+    "role": "Role"
+  },
+  "MainPage": {
+    "Home":"Trang chủ",
+    "Furnitures":"Nội thất",
+    "Sale":"Khuyến mãi",
+    "Blog":"Tin tức",
+    "Contact":"Liên hệ",
+    "Search":"Tìm sản phẩm...",
+    "Account":"Tài khoản",
+    "Logout":"Đăng xuất",
+    "Sign In":"Đăng nhập",
+    "Sign Up":"Đăng ký",
+    "Favorites":"Yêu thích",
+    "Cart":"Giỏ hàng",
+    "Show now":"Mua ngay",
+    "Our product":"Sản phẩm chúng tôi",
+    "New arrivals":"Sản phẩm mới",
+    "Sales":"Giảm giá",
+    "Best Sellers":"Bán chạy nhất",
+    "About":"Về chúng tôi",
+    "Room":"Phòng nội thất",
+    "Contact with us":"Liên hệ với chúng tôi",
+    "Festival saving await":"Ưu đãi lễ hội đang chờ đón!",
+    "Top selling products":"Top sản phẩm bán chạy!",
+    "Sale now":"Giảm giá ngay",
+    "Copy code":"Sao chép mã",
+    "Minimum order of":"Đơn hàng tối thiểu là",
+    "Expiry Date":"Ngày hết hạn",
+    "Apply Date":"Ngày áp dụng",
+    "Our address":"Địa chỉ chúng tôi",
+    "Our Email":"Email chúng tôi",
+    "Our phone number":"Điện thoại",
+    "Working hours":"Thời gian làm việc",
+    "Send your inquiries to us":"Gửi thắc mắc cho chúng tôi",
+    "Enter a name":"Nhập họ tên",
+    "Enter a phone number":"Nhập số điện thoại",
+    "Enter a email":"Nhập email",
+    "Enter a content":"Nhập nội dung",
+    "Send to us":"Gửi chúng tôi",
+    "Monday to Friday from 8:00 AM to 6:00 PM":"Thứ 2 đến Thứ 6 từ 8h đến 18h",
+    "Saturday and Sunday from 8:00 AM to 5:00 PM":"Thứ 7 và Chủ nhật từ 8h00 đến 17h00",
+    "Copied Success":"Sao chép thành công",
+    "Copied":"Đã sao chép",
+    "Copyright":"Bản quyền",
+    "Dormitory A, Can Tho University, Xuan Khanh, Ninh Kieu, Can Tho":"KTX A, Đại học Cần Thơ, Xuân Khánh, Ninh Kiều, Cần Thơ",
+    "Sort":"Sắp xếp",
+    "search results for":"kết quả tìm kiếm cho",
+    "Name from A to Z":"Tên từ A to Z",
+    "Name from Z to A":"Tên từ Z to A",
+    "Price (low to hight)":"Giá (thấp đến cao)",
+    "Price (hight to low)":"Giá (cao đến thấp)",
+    "Language settings":"Cài đặt ngôn ngữ",
+    "Incorrect Order Information":"Thông tin đơn hàng không chính xác",
+    "Incorrect Delivery Address":"Thông tin địa chỉ nhận hàng không chính xác",
+    "Change of decision":"Thay đổi quyết định",
+    "Dissatisfaction with the product/service":"Không hài lòng với sản phẩm/dịch vụ",
+    "Financial problems":"Vấn đề tài chính",
+    "Other issues":"Vấn để khác"
+  },
+  "SignInUp":{
+    "Welcome back":"Chào mừng bạn trở lại!",
+    "Do you have an account yet":"Bạn đã có tài khoản chưa?",
+    "Sign In":"Đăng nhập",
+    "Sign Up":"Đăng ký",
+    "Sign in to your Furnit account":"Đăng nhập vào tài khoản Furnit của bạn",
+    "Email address":"Địa chỉ email",
+    "Password":"Mật khẩu",
+    "Remember me":"Nhớ tài khoản",
+    "Forget my password":"Quên mật khẩu?",
+    "Welcome":"Chào mừng!",
+    "First things first":"Điều quan trọng nhất là...",
+    "Create a profile to personalize how you will appear to collaboraors":"Tạo một hồ sơ để cá nhân hóa cách bạn sẽ xuất hiện đối với đồng đội",
+    "Username":"Tên đăng nhập",
+    "First name":"Họ",
+    "Last name":"Tên",
+    "Phone number":"Số điện thoại",
+    "What is your gender":"Giới tính của bạn là gì?",
+    "Repeat password":"Xác nhận mật khẩu",
+    "Already a member":"Bạn đã là thành viên chưa?",
+    "Female":"Nữ",
+    "Male":"Name",
+    "Other":"Khác",
+    "8+ character":"8+ ký tự",
+    "Sign in successfully":"Đăng ký thành công!",
+    "Sign up successfully":"Đăng nhập thành công!"
+  },
+   "OrderHistory":{
+    "Cancellation Request Date":"Cancellation Request Date",
+    "Cancellation request has been submitted, awaiting confirmation":"Cancellation request has been submitted, awaiting confirmation"
+  },
+   "ProductDetail":{
+    "Reviews":"Đánh giá",
+    "Our Community Guidelines Help Customers Write Honest Reviews":"Hướng dẫn Cộng đồng của chúng tôi giúp khách hàng viết những đánh giá chân thực.",
+    "No Review":"Không có đánh giá nào",
+    "Latest":"Mới nhất",
+    "Oldest":"Cũ nhất",
+    "Highest Rated":"Đánh giá cao",
+    "Lowest Rated":"Đánh giá thấp"
+  }
+}

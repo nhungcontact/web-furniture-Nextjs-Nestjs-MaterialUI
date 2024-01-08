@@ -1,0 +1,88 @@
+{
+  "HomePage": {
+    "title": "제목",
+    "description": "설명"
+  },
+  "MainMenu": {
+    "Products": "제품",
+    "People": "사람들",
+    "Contact": "연락하다"
+  },
+  "UserMenu": {
+    "Profile": "프로필",
+    "Settings": "설정"
+  },
+  "FooterMenu": {
+    "Home": "집",
+    "About": "에 대한",
+    "Policy": "정책"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, vi {Vietnamese} en {English} ko {Korean} other {Unknown}}"
+  },
+  "AppFeatures": {
+    "title": "제목",
+    "subtitle": "부제",
+    "description": "설명"
+  },
+  "HeroBanner": {
+    "title": "제목",
+    "description": "설명"
+  },
+  "UserList": {
+    "title": "제목",
+    "detail_btn": "세부 사항",
+    "error": "error",
+    "noData": "noData",
+    "searchPlaceholder": "searchPlaceholder",
+    "Show": "Show"
+  },
+  "MainFooter": {
+    "title": "제목",
+    "subtitle": "부제"
+  },
+  "NotFound": {
+    "title": "Not Found",
+    "description": "Could not find requested resource",
+    "buttonText": "Go Back"
+  },
+  "UserListItem": {
+    "option": {
+      "detail": "detail",
+      "delete": "delete",
+      "edit": "edit"
+    }
+  },
+  "UserHeader": {
+    "title": "title",
+    "create": "create"
+  },
+  "ErrorContent": {
+    "title": "title",
+    "tryAgain": "tryAgain"
+  },
+  "UserEditDialog": {
+    "title": "Edit User",
+    "displayName": "Display Name",
+    "email": "Email",
+    "cancel": "cancel",
+    "save": "save"
+  },
+  "UserRemoveDialog": {
+    "title": "Remove user",
+    "content": "Are you sure?",
+    "cancel": "cancel",
+    "remove": "remove"
+  },
+  "UserCreateDialog": {
+    "title": "Create User",
+    "displayName": "Display Name",
+    "username": "Username",
+    "email": "Email",
+    "tel": "Tel",
+    "cancel": "cancel",
+    "save": "save",
+    "role": "Role"
+  }
+}

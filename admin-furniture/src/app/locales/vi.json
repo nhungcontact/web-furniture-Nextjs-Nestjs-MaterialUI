@@ -1,0 +1,88 @@
+{
+  "HomePage": {
+    "title": "Admin",
+    "description": "Sự miêu tả"
+  },
+  "MainMenu": {
+    "Products": "Các sản phẩm",
+    "People": "Mọi người",
+    "Contact": "Liên hệ"
+  },
+  "UserMenu": {
+    "Profile": "Hồ sơ",
+    "Settings": "Cài đặt"
+  },
+  "FooterMenu": {
+    "Home": "Trang chủ",
+    "About": "Về",
+    "Policy": "Chính sách"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, vi {Vietnamese} en {English} ko {Korean} other {Unknown}}"
+  },
+  "AppFeatures": {
+    "title": "tiêu đề",
+    "subtitle": "phụ đề",
+    "description": "Sự miêu tả"
+  },
+  "HeroBanner": {
+    "title": "tiêu đề",
+    "description": "Sự miêu tả"
+  },
+  "UserList": {
+    "title": "Người dùng",
+    "detail_btn": "Chi tiết",
+    "error": "error",
+    "noData": "noData",
+    "searchPlaceholder": "searchPlaceholder",
+    "Show": "Show"
+  },
+  "MainFooter": {
+    "title": "tiêu đề",
+    "subtitle": "phụ đề"
+  },
+  "NotFound": {
+    "title": "Not Found",
+    "description": "Could not find requested resource",
+    "buttonText": "Go Back"
+  },
+  "UserListItem": {
+    "option": {
+      "detail": "detail",
+      "delete": "delete",
+      "edit": "edit"
+    }
+  },
+  "UserHeader": {
+    "title": "title",
+    "create": "create"
+  },
+  "ErrorContent": {
+    "title": "title",
+    "tryAgain": "tryAgain"
+  },
+  "UserEditDialog": {
+    "title": "Edit User",
+    "displayName": "Display Name",
+    "email": "Email",
+    "cancel": "cancel",
+    "save": "save"
+  },
+  "UserRemoveDialog": {
+    "title": "Remove user",
+    "content": "Are you sure?",
+    "cancel": "cancel",
+    "remove": "remove"
+  },
+  "UserCreateDialog": {
+    "title": "Create User",
+    "displayName": "Display Name",
+    "username": "Username",
+    "email": "Email",
+    "tel": "Tel",
+    "cancel": "cancel",
+    "save": "save",
+    "role": "Role"
+  }
+}

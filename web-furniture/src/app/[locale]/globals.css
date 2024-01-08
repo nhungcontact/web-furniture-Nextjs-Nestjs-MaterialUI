@@ -1,0 +1,15 @@
+.btn-cancel {
+  background-color: #d9d9d9 !important;
+  color: black !important;
+  box-shadow: none !important;
+  height: 38px !important;
+  text-transform: capitalize !important;
+  font-weight: bold !important;
+}
+
+.btn-action {
+  box-shadow: none !important;
+  height: 38px !important;
+  text-transform: capitalize !important;
+  font-weight: bold !important;
+}

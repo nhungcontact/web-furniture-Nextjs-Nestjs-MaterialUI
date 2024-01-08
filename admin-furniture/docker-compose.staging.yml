@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  templates_next_app:
+    image: registry.go.drimaesvn.com/templates/next-app:staging
+    restart: always
+    environment:
+      - VIRTUAL_HOST=templates-next-app.go.drimaesvn.com
+      - LETSENCRYPT_HOST=templates-next-app.go.drimaesvn.com
+
+networks:
+  default:
+    name: staging-net
+    external: true

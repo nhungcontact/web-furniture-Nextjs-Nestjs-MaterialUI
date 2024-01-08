@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "plugin:storybook/recommended"
+  ],
+  "rules": {
+    "@typescript-eslint/ban-ts-comment": "off",
+    "max-lines": ["error", 200]
+  }
+}
